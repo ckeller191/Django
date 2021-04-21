@@ -21,9 +21,9 @@ def topic(request, topic_id):
 
     context = {'topic':topic, 'entries':entries}
 
-    return render(request, 'MainApp.topic/html', context)
+    return render(request, 'MainApp/topic.html', context)
 
 
-def new_topic(request):
+#def new_topic(request):
 
 
